@@ -26,10 +26,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gogetdane
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 #minimal_mistakes_skin: "dark"
 
