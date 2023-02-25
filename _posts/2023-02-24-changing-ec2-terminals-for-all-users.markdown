@@ -91,7 +91,7 @@ Here's the command I used, you could use `nano` or `vi`.
 echo 'PROMPT_COMMAND="PS1=\"\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\H\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\""' | tee -a /etc/bash.bashrc
 ```
 
-That's it! Now, you can start a new terminal and you'll see a prompt like this:
+:beers: That's it, get yourself a beer! Now, you can start a new terminal and you'll see a prompt like this:
 
 ```bash
 # Production server
