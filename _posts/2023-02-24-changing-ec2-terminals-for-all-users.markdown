@@ -98,6 +98,6 @@ That's it! Now, you can start a new terminal and you'll see a prompt like this:
 user@go.getdane.co.uk:~$
 
 # Staging server
-user@go.staging.getdane.:~$
+user@go.staging.getdane.co.uk.:~$
 
 ```
