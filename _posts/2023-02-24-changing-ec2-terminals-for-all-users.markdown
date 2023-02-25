@@ -1,5 +1,5 @@
 ---
-title:  "How to change the terminal prompt on AWS EC2 instances for all users"
+title:  "Change EC2 Terminal Prompts To Make Servers Identifiable"
 ---
 
 #### Recently I thought it would make more sense for EC2 terminal prompts to use the public hostname, rather than a prompt determined from the private IP. 
