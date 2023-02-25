@@ -1,5 +1,4 @@
 ---
-layout: posts
 title:  "How to change the terminal prompt on AWS EC2 instances for all users"
 ---
 

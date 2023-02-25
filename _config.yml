@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dane's Discoveries
+title: The Wordy Home of gogetdane
 email: go@getdane.co.uk
 description: Stuff I've discovered that other people may find useful!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,6 +33,59 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      layout: single
+      classes: wide
+      author:
+        name     : "Dane Stevens"
+        avatar   : "/assets/me.jpeg"
+        bio      : |
+          Senior Software Engineer & Solutions Architect
+        location : "Worcestershire, UK"
+        github_username: gogetdane
+        links:
+          - label: "LinkedIn"
+            icon: "fab fa-fw fa-linkedin-in"
+            url: "https://www.linkedin.com/in/danestevens/"
+          - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/gogetdane"
+          - label: "Email"
+            icon: "fas fa-fw fa-envelope-square"
+            url: "mailto:go@getdane.co.uk"
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      layout: single
+      classes: wide
+      author:
+        name     : "Dane Stevens"
+        avatar   : "/assets/me.jpeg"
+        bio      : |
+          Senior Software Engineer & Solutions Architect
+        location : "Worcestershire, UK"
+        github_username: gogetdane
+        links:
+          - label: "LinkedIn"
+            icon: "fab fa-fw fa-linkedin-in"
+            url: "https://www.linkedin.com/in/danestevens/"
+          - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/gogetdane"
+          - label: "Email"
+            icon: "fas fa-fw fa-envelope-square"
+            url: "mailto:go@getdane.co.uk"
+
+
+    
 #minimal_mistakes_skin: "dark"
 
 # Exclude from processing.
