@@ -2,7 +2,7 @@
 title:  "Change EC2 Terminal Prompts To Make Servers Identifiable"
 ---
 
-#### Recently I thought it would make more sense for EC2 terminal prompts to use the public hostname, rather than a prompt determined from the private IP. 
+#### We can use the terminal prompt to control the risk of working on the wrong server. Here's how I made an improvement.
 
 ---
 
@@ -17,7 +17,7 @@ user@go.staging.getdane.co.uk:~$
 
 It's too easy to mix up terminal windows, especially when a busy dev is flitting from server to server. Nobody wants to break a production server, so let's look at how we can make the prompt memorable. 
 
-Surely, if the prompt tells you which server you're on then it's harder to make mistakes.
+If the prompt tells you which server you're on then there's another layer of defense between you and an honest (although embarassing) mistake.
 
 {% capture notice-2 %}
 **Here's what you'll need to do this..**

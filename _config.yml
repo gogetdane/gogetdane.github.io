@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Wordy Home of gogetdane
+title: Notes From A Small Office
 email: go@getdane.co.uk
 description: Stuff I've discovered that other people may find useful!
 baseurl: "" # the subpath of your site, e.g. /blog
